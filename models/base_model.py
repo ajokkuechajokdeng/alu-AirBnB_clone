@@ -5,10 +5,9 @@ from datetime import datetime
 import models
 import uuid
 
+
 class BaseModel:
-  """
-  BaseModel class that defines all common attributes/methods
-  """
+    """BaseModel class that defines all common attributes/methods"""
 
     def __init__(self, *args, **kwargs):
         """Initializing the BaseModel class"""
